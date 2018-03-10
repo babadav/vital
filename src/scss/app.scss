@@ -1,0 +1,274 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+@import 'reset';
+@import url("https://use.typekit.net/efw0sbt.css");
+@import 'insurance';
+@import 'my-circle';
+@import 'track';
+@import 'mom';
+@import 'face-time';
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	background-color: RGBA(23, 38, 61, 1.00);
+	font-family: "acumin-pro-condensed";
+}
+
+a{
+	color: white;
+}
+
+.loading-screen{
+	width: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	padding-top: 10%;
+	top: 0;
+	background-color: RGBA(23, 38, 61, 1.00);
+    z-index: 100;
+    height: 100vh;
+}
+
+.hamburger-logo{
+	width: 100%;
+	display: flex;
+	padding-top: 5%;
+	position: relative;
+	z-index: 10;
+	margin-bottom: 6%;
+
+	.hamburger-button{
+		margin-left: 5%;
+		margin-right: 15%;
+	}
+
+	.logo{
+	    position: relative;
+	    z-index: 1;
+	}
+}
+
+
+.map-container, .map-container-track{
+	width: 100%;
+	padding-bottom: 106%;
+	background-image: url(../../src/img/atlanta.svg);
+	background-size: 250%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+
+	.face-time-vital-rep{
+		width: 70px;
+		height: 100px;
+		background-image: url(../../src/img/face-time-background.png);
+		background-size: cover;
+		position: absolute;
+		top: 15px;
+		left: 15px;
+
+	}
+
+}
+
+
+.request{
+	width: 100%;
+    display: flex;
+    justify-content: center;
+	margin-top: 5%;
+	
+	.outter-glow , .outter-glow-insurance{
+		width: 160px;
+		height: 160px;
+		background-color: RGBA(253, 235,1, .3);
+		border-radius: 150px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		.request-button{
+			width: 150px;
+			height: 150px;
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 125px;
+			background-color: RGB(253, 235,1);
+			font-size: 1.5rem;
+			text-decoration: none;
+			color: black;
+		}
+	}
+	
+}
+
+
+
+
+
+
+
+nav{
+	
+	background-color: RGB(39,52,119);
+	width: 68vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: all .5s;
+    z-index: 2;
+    padding-top: 10%;
+
+    .header-space{
+    	    margin-left: 13%;
+    }
+
+
+	.nav-ui li a {
+		color: white;
+		margin-right: 10px;
+		margin-left: 11px;
+	}
+
+	.nav-ui , .my-circle-dropdown-nav,
+	.track-vital-dropdown-nav{
+		width: 63%;
+		color: white;
+		border-bottom: .1px solid white;
+
+	   
+	    .my-info-nav, .my-circle-nav,.track-vital-nav{
+	    	
+	    	margin-top: 15%;
+		    padding-bottom: 3%;
+		    font-size: 1.4rem;
+		    transitions: all .3s;
+
+		    img{
+		    	margin-left: 10%;
+		    }
+		    .badge-info, .circle-badge,
+		    .track-vital-badge{
+		    	margin-left: 10%;
+		    	transition: all .2s;
+		    }
+	    }
+	    
+
+		.subnav-container, .circle-subnav-container,
+		.track-vital-container{
+			padding-left: 8%;
+			border-top: 0;
+
+			ul{
+					padding-left: 15%;
+				}
+				li{
+					border: 0;
+					padding: 0;
+					margin: 0;
+					width: 41%;
+					color: white;
+					font-size: 1.5rem;
+				}
+
+				a{
+					margin:0;
+					text-decoration: none;
+					
+				}
+			.dropdown-subnav, .circle-dropdown-subnav,
+			.track-vital-subnav{
+				width: 100%;
+
+
+				
+				
+
+				.sub-nav-margin{
+					margin-left: 17%;
+				}
+
+			
+
+			.medications-nav, .conditions-nav, .allergies-nav,
+			.home-work-nav, .car-nav{
+					margin-bottom: 15%;
+			
+				}
+
+				.home-work-nav{
+					width: 90%;
+				}
+
+				
+			}
+		}
+	}
+
+		.my-circle-dropdown-nav{
+		font-size: 1.2rem;
+	    padding-left: 7%;
+	    text-decoration: none;
+		 	li{
+			border: 0;
+			padding: 0;
+			margin: 0;
+			width: 41%;
+			color: white;
+			font-size: 1.5rem;
+		}
+
+		a{
+			margin:0;
+			text-decoration: none;
+		}
+	}
+}
+
+
+
+.nav-active{
+	left: 0;
+}
+
+.badge-info, .circle-badge-active,
+.track-vital-active{
+	transform: rotate(90deg);
+}
+
+.my-info-nav-active, .my-circle-nav-active,.track-vital-nav-active{
+	color: RGB(253, 235,1);
+	
+}
+
+.nav-ui-active , .my-circle-dropdown-nav-active,
+	.track-vital-dropdown-nav-active{
+		border-bottom: none;
+	}
+
+
+

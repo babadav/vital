@@ -1,0 +1,44 @@
+.face-time-head{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.facetime-wrap{
+    
+    .face-time-image{
+        background-image: url(../../src/img/face-time-background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-bottom: 125%;   
+        position: relative;
+     }
+
+     .your-image{
+        width: 70px;
+        padding-bottom: 100px;
+        background-image: url(../../src/img/your-image.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        right: 22px;
+        top: 25px;
+
+
+     }
+
+     .under-image-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        background-color: yellow;
+        position: relative;
+        top: 20px;
+     }
+}

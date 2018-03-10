@@ -1,0 +1,58 @@
+
+
+.my-circle-wrap{
+    .mom-head{
+        margin-bottom: 15% !important;
+    }
+
+    .contacts-inputs{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    
+    input{
+        background-color: transparent;
+        color: white;
+        height: 40px;
+        border-radius: 8px;
+        margin-bottom: 5%;
+        padding-left: 5%;
+        font-size: 1.5rem;
+    }
+
+    .radio-buttons{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .send-alert-wrap, .emergency-button-wrap{
+        display: flex;
+    font-size: 2rem;
+    color: white;
+    }
+
+}
+
+.mom-circle{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px;
+    background-color: RGBA(216, 216, 216, 1.00);
+    margin: 0 auto;
+    margin-bottom: 10%;
+    
+    h1{
+        color: black;
+    }
+}
+
+

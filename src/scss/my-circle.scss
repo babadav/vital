@@ -1,0 +1,137 @@
+
+
+
+
+.my-circle-wrap{
+	.my-circle-head{
+		width: 30%;
+		margin: 0 auto;
+		margin-top: 5%;
+		margin-bottom: 43%;
+		h1{
+			color: RGB(253, 235,1);
+			font-size: 2.5rem;
+
+		}
+	}
+
+	.circle-center{
+		width: 200px;
+		position: relative;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-end;
+		height: 200px;
+		margin: 0 auto;
+		border-radius: 150px;
+		border: 2px solid RGBA(216, 216, 216, 1.00);
+		background-color: transparent;
+		top: -3px;
+
+		h1{
+			display: flex;
+		    align-content: flex-end;
+		    position: relative;
+		    right: 43px;
+		    margin-bottom: 7%;
+		    text-align: right;
+		}
+
+		.line{
+			padding-bottom: 59px;
+		    width: 2px;
+			background-color: RGBA(216, 216, 216, 1.00);
+			position: absolute;
+		}
+
+		.line-1{
+	        left: 0px;
+		    top: -16px;
+		    transform: rotate(-27deg);
+		}
+
+		.line-2{
+			left: 96px;
+		    top: -60px
+		}
+
+		.line-3{
+			top: -16px;
+		    right: 0;
+		    transform: rotate(27deg);
+		}
+
+		.line-4{
+			bottom: -16px;
+		    left: 0;
+		    transform: rotate(27deg);
+		}
+
+		.line-5{
+			left: 96px;
+		    bottom: -60px;
+		}
+
+		.line-6{
+			bottom: -16px;
+		    right: 0;
+		    transform: rotate(-27deg);
+		}
+
+		.top-circles, .bottom-circles{
+			position: relative;
+			.circle{
+			    width: 70px;
+			    display: flex;
+			    justify-content: center;
+			    align-items: center;
+			    height: 70px;
+			    background-color: RGBA(216, 216, 216, 1.00);
+			    border: 2px solid RGBA(216, 216, 216, 1.00);
+			    position: absolute;
+			    border-radius: 45px;
+			    color: black;
+			}
+
+			.mom{
+			    top: -198px;
+				left: -58px
+				
+				
+			}
+
+			.mom a {
+				color: black;
+				text-decoration: none;
+			}
+
+			.dad{
+			    top: -247px;
+			    left: 61px;
+			}
+
+			.brother{
+			    top: -200px;
+			    left: 178px;
+			}
+
+			.friend-1{
+			    position: absolute;
+			    left: -58px;
+			    top: 10px;
+			}
+			.friend-2{
+				left: 178px;
+			    top: 10px;
+			}
+
+			.sister{
+				top: 60px;
+			    left: 65px;
+			}
+		}
+
+
+	}
+
+}

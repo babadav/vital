@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="23px" viewBox="0 0 48 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>burger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-20.000000, -64.000000)">
+        <g id="burger" transform="translate(20.000000, 64.000000)" fill="#D8D8D8">
+            <polygon id="Rectangle-2" points="0 0 48 0 44.5073853 5 0 5"></polygon>
+            <polygon id="Rectangle-2-Copy" points="0 9 41.7513428 9 38.380249 14 0 14"></polygon>
+            <polygon id="Rectangle-2-Copy-2" points="0 18 35.6922607 18 32.2888184 23 0 23"></polygon>
+        </g>
+    </g>
+</svg>

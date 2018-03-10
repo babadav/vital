@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="23px" viewBox="0 0 124 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-126.000000, -64.000000)">
+        <g id="Logo-Copy" transform="translate(126.000000, 64.000000)" fill="#FFFFFF">
+            <polygon id="Fill-3" points="101 0 101 17.2502477 101 23 106.749814 23 124 23 124 17.2502477 106.749814 17.2502477 106.749814 0"></polygon>
+            <path d="M70,0 L70,5.75 L70,23 L75.7497523,23 L75.7497523,17.2502477 L87.25,17.2502477 L87.25,23 L93,23 L93,17.2502477 L93,11.5 L93,5.75 L93,0 L70,0 Z M75.7497523,11.5 L87.2497523,11.5 L87.2497523,5.75 L75.7497523,5.75 L75.7497523,11.5 Z" id="Fill-1"></path>
+            <polygon id="Fill-4" points="40 0 40 5.75 48.624969 5.75 48.624969 23 54.375031 23 54.375031 5.75 63 5.75 63 0"></polygon>
+            <polygon id="Fill-2" points="30 23 37 23 37 0 30 0"></polygon>
+            <polygon id="Fill-5" points="15.7036264 0 5.71038725 14.6364988 5.71038725 0 0 0 0 23 5.71038725 23 7.2966196 23 23 0"></polygon>
+        </g>
+    </g>
+</svg>
