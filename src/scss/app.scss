@@ -33,6 +33,9 @@ body {
 	font-family: "acumin-pro-condensed";
 }
 
+.yellow{
+	color: yellow;
+}
 a{
 	color: white;
 }
@@ -163,7 +166,10 @@ nav{
 	    .my-info-nav, .my-circle-nav,.track-vital-nav{
 	    	
 	    	margin-top: 15%;
-		    padding-bottom: 3%;
+			padding-bottom: 3%;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 5%;
 		    font-size: 1.4rem;
 		    transitions: all .3s;
 
@@ -203,7 +209,9 @@ nav{
 			.dropdown-subnav, .circle-dropdown-subnav,
 			.track-vital-subnav{
 				width: 100%;
-
+				li{
+					width: 120%;
+				}
 
 				
 				
@@ -235,9 +243,9 @@ nav{
 	    text-decoration: none;
 		 	li{
 			border: 0;
-			padding: 0;
+			padding-top: 20px;
+			padding-bottom: 20px;
 			margin: 0;
-			width: 41%;
 			color: white;
 			font-size: 1.5rem;
 		}

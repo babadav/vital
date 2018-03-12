@@ -101,20 +101,25 @@ function vitalHomeAnimations(){
 		
 	})
 	
-	TweenMax.fromTo(['.outter-glow', '.outter-glow-insurance'] , .8, {
-		width: '150px',
-		height: '150px',
-		yoyo: true,
-		repeat: -1
+	// TweenMax.fromTo(['.outter-glow', '.outter-glow-insurance'] , .8, {
+	// 	width: '150px',
+	// 	height: '150px',
+	// 	yoyo: true,
+	// 	repeat: -1
 	
 		
-	},{
-		width: '170px',
-		height: '170px',
-		yoyo: true,
-		repeat: -1
-	})	
+	// },{
+	// 	width: '170px',
+	// 	height: '170px',
+	// 	yoyo: true,
+	// 	repeat: -1
+	// })	
 	
+	TweenMax.to(['.outter-glow', '.outter-glow-insurance'], .8, {
+		scale: 1.1,
+		repeat: -1,
+		yoyo: true
+	})
 }
 
 var mainContent = document.querySelector('.main-content');
@@ -165,6 +170,20 @@ var options = {
 	  console.error(demo.error);
 	}
 }
+
+
+TweenMax.to('.additional-contact', 1, {
+	// transfrom: 'scale(1.2)',
+	scale: 1.2,
+	repeat: -1,
+	yoyo: true
+})
+
+
+
+
+
+
 
 
 

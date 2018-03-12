@@ -2,7 +2,24 @@
 
 .my-circle-wrap{
     .mom-head{
-        margin-bottom: 15% !important;
+        margin-bottom: 5% !important;
+        width: 40%;
+    }
+
+    .additional-contacts{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 5%;
+        .additional-contact{
+            width: 60px;
+            height: 60px;
+            background: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40px;
+        }
     }
 
     .contacts-inputs{
@@ -21,6 +38,11 @@
         margin-bottom: 5%;
         padding-left: 5%;
         font-size: 1.5rem;
+    }
+
+    label{
+        color: white;
+        margin-bottom: 10px;
     }
 
     .radio-buttons{
@@ -48,7 +70,7 @@
     border-radius: 150px;
     background-color: RGBA(216, 216, 216, 1.00);
     margin: 0 auto;
-    margin-bottom: 10%;
+
     
     h1{
         color: black;
