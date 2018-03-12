@@ -276,7 +276,22 @@ nav{
 .nav-ui-active , .my-circle-dropdown-nav-active,
 	.track-vital-dropdown-nav-active{
 		border-bottom: none;
+}
+.glow-flex {
+	width:150px;
+	height:150px;
+	background:yellow;
+	opacity:.6;
+	transform:scale(1);
+	transition:0s all;
+	border-radius: 100%;
+	position:absolute;
+	&.active {
+		transform:scale(1.5);
+		opacity:0;
+		transition:.8s;	
 	}
+}
 
 
 
