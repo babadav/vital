@@ -7,6 +7,10 @@ body{
 	flex-direction: column;
 	align-items: center;
 
+	.track-timer{
+		color: black;
+	}
+
 	.counter-container{
 		width: 150px;
 		display: flex;

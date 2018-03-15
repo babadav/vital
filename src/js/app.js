@@ -2,6 +2,7 @@
 (() => {
 	console.log("Hello World from app.js, transpiled and concatenated!");
 })();
+setInterval(function(){document.querySelector('.glow-flex').classList.toggle('active')},800);
 
 $(document).ready(function(){
 		function navAnimations(){
@@ -63,37 +64,6 @@ TweenMax.to('.loading-screen', 1, {
 })
 
 
-// var line = document.querySelector('polyline');
-
-				// line = [].slice.call(line); // hack to convert NodeList (what querySelectorAll returns) to an array (which can be shuffled)
-
-				// function shuffleArray(array) {
-				//     for (var i = array.length - 1; i > 0; i--) {
-				//         var j = Math.floor(Math.random() * (i + 1));
-				//         var _ref = [array[j], array[i]];
-				//         array[i] = _ref[0];
-				//         array[j] = _ref[1];
-				//     }
-				// }
-				// shuffleArray(line);
-
-			// 	TweenMax.to(line, 2, {
-			// 	    drawSVG: "0 100"
-			// 	    // stroke:"white", 
-			// 	    // strokeWidth:6,
-			// 	}, .2);
-			// 	//# sourceMappingURL=app.js.map
-			// }
-
-
-// var myCircleLines = document.querySelectorAll('.line');
-
-// TweenMax.staggerFrom('.line' , 2, {
-// 	left: '0px';
-// },{
-// 	left: '59px'
-// }.04)
-
 function vitalHomeAnimations(){
 	TweenMax.to(['.map-container', '.map-container-track'] , .3 , {
 		backgroundSize: '100%',
@@ -101,26 +71,26 @@ function vitalHomeAnimations(){
 		
 	})
 	
-	// TweenMax.fromTo(['.outter-glow', '.outter-glow-insurance'] , .8, {
-	// 	width: '150px',
-	// 	height: '150px',
-	// 	yoyo: true,
-	// 	repeat: -1
+// 	TweenMax.fromTo(['.outter-glow', '.outter-glow-insurance'] , .8, {
+// 		width: '140px',
+// 		height: '140px',
+// 		yoyo: true,
+// 		repeat: -1
 	
 		
-	// },{
-	// 	width: '170px',
-	// 	height: '170px',
-	// 	yoyo: true,
-	// 	repeat: -1
-	// })	
+// 	},{
+// 		width: '160px',
+// 		height: '160px',
+// 		yoyo: true,
+// 		repeat: -1
+// 	})	
 	
-	TweenMax.to(['.outter-glow', '.outter-glow-insurance'], .8, {
-		scale: 1.1,
-		repeat: -1,
-		yoyo: true
-	})
-}
+// 	TweenMax.to(['.outter-glow', '.outter-glow-insurance'], .8, {
+// 		scale: 1.1,
+// 		repeat: -1,
+// 		yoyo: true
+// 	})
+ }
 
 var mainContent = document.querySelector('.main-content');
 
@@ -138,17 +108,19 @@ function insurancePageAnimations(){
 	var autoPopButton = document.querySelector('.auto-pop');
 	var blankForm = document.querySelector('.insurance-inputs');
 	var filledForm = document.querySelector('.filled-form');
+	if(autoPopButton) {
+		autoPopButton.addEventListener('click', function(){	
+			TweenMax.to(blankForm, 2, { opacity: 0 , visibility: 'hidden'})
+			TweenMax.to(filledForm , 2 , {opacity: 1, visibility: 'visible'})
+		
+			TweenMax.staggerFrom('.input-container-filled', .5, { 
+				opacity: 0,
+				y: -100,
+				ease:Power4.easeOut
+			}, 0.05 );
+		})
+	}
 
-	autoPopButton.addEventListener('click', function(){	
-	TweenMax.to(blankForm, 2, { opacity: 0 , visibility: 'hidden'})
-	TweenMax.to(filledForm , 2 , {opacity: 1, visibility: 'visible'})
-
-	TweenMax.staggerFrom('.input-container-filled', .5, { 
-		opacity: 0,
-		y: -100,
-		ease:Power4.easeOut
-	  }, 0.05 );
-	})
 }
 
 
@@ -171,13 +143,13 @@ var options = {
 	}
 }
 
-
 TweenMax.to('.additional-contact', 1, {
 	// transfrom: 'scale(1.2)',
 	scale: 1.2,
 	repeat: -1,
 	yoyo: true
 })
+
 
 
 

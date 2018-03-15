@@ -40,6 +40,11 @@ a{
 	color: white;
 }
 
+li, label{
+	letter-spacing: 1px;
+
+}
+
 .loading-screen{
 	width: 100%;
 	position: absolute;
@@ -199,6 +204,8 @@ nav{
 					width: 41%;
 					color: white;
 					font-size: 1.5rem;
+					margin-bottom: 10px;
+					width: 137%;
 				}
 
 				a{
@@ -210,7 +217,7 @@ nav{
 			.track-vital-subnav{
 				width: 100%;
 				li{
-					width: 120%;
+					width: 137%;
 				}
 
 				
@@ -224,7 +231,7 @@ nav{
 
 			.medications-nav, .conditions-nav, .allergies-nav,
 			.home-work-nav, .car-nav{
-					margin-bottom: 15%;
+					// margin-bottom: 15%;
 			
 				}
 
@@ -292,6 +299,25 @@ nav{
 		transition:.8s;	
 	}
 }
-
+#Path-4 {
+	stroke-dasharray:100;
+	animation:dash 8s linear;
+	animation-iteration-count: infinite;
+}
+@keyframes dash {
+	to {
+		stroke-dashoffset: 1000;
+	}
+}
+#Oval-5-Copy {
+	opacity:1;
+	animation: fadeOut 1s linear;
+	animation-iteration-count:infinite;
+}
+@keyframes fadeOut {
+	to {
+		opacity: .3;
+	}
+}
 
 
